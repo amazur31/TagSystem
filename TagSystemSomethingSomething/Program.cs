@@ -11,7 +11,7 @@ namespace TagSystemSomethingSomething
         static void Main(string[] args)
         {
             TagSearch search = new TagSearch();
-            string[] test = search.GetTags("#testing Test #Hi #test#test2 #test3 #test4 #ą #ąęrtg #aerę #tes/t");
+            string[] test = search.GetTags("#testing #żółć #русский Test #汉字/漢字 #Hi #test#test2 #test3 #test4 #ą #ąęrtg #aerę #tes/t");
             foreach (string i in test)
             {
                 Console.WriteLine(i);
